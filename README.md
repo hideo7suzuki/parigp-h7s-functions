@@ -74,7 +74,7 @@ $\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも�
 $\mathtt{znprimroot2(n)}$   
 $\mathbb{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
   $n = 2, 4, p^{\alpha}, 2p^{\alpha}のとき\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
-$\mathtt{znprimroots2(n)}  \mathbb{Z}_n の原始根をすべて列挙する(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応)$  
+$\mathtt{znprimroots2(n)}$  $\mathbb{Z}_n の原始根をすべて列挙する(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応)$  
 
 ----------
 
