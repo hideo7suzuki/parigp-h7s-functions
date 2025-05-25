@@ -64,7 +64,7 @@ $\mathbb{Z}_p[x]のf以下の原始多項式f(16進in,16進out)$
 $\mathtt{pol2precprimitivedecout(p,f)}$   
 $\mathbb{Z}_p[x]のf以下の原始多項式f(多項式in,16進out)$  
 $\mathtt{replace4vec(aavec,rrvec)}$   
-  $ベクトル変換, 例: [0,1,2,3] ¥longrightarrow [0,1,a^{119},a^{238}]$  
+  $ベクトル変換, 例: [0,1,2,3] \longrightarrow [0,1,a^{119},a^{238}]$  
 $\mathtt{znlambda2(n)}$   
   Carmichael関数$\lambda(n)=(\mathbb{Z}_nの最大位数)(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$  
   $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のとき$\lambda(n)=\phi(n)$より$\mathtt{znlambda2(n)=eulerphi(n)}$  
