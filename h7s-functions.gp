@@ -1,8 +1,7 @@
 \\ file name: h7s-functions.gp
 
-
-\\ my user functions for pari/gp
-\\ copyright by Hideo Suzuki
+\\ my user functions for PARI/GP ver.0.900.  
+\\ copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025. 
 
 { checkorders(order) =  
   my(f,cord,t,i); 
