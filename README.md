@@ -54,15 +54,15 @@ $\mathbb{Z}_p[x]のfより1つ下の原始多項式f(16進in,多項式out)$
 $\mathtt{pol2prec2primitivedecinout(p,fdec)}$   
 $\mathbb{Z}_p[x]のfより1つ下の原始多項式f(16進in,16進out)$  
 $\mathtt{pol2prec2primitivedecout(p,f)}$   
-$\mathbb{Z}_p[x]のfより1つ下の原始多項式f(多項式in,16進out)$  
+  $\mathbb{Z}_p[x]のfより1つ下の原始多項式f(多項式in,16進out)$  
 $\mathtt{pol2precprimitive(p,f)}$   
-$\mathbb{Z}_p[x]のf以下の原始多項式f(多項式in,out)$  
+  $\mathbb{Z}_p[x]のf以下の原始多項式f(多項式in,out)$  
 $\mathtt{pol2precprimitivedecin(p,fdec)}$   
-$\mathbb{Z}_p[x]のf以下の原始多項式f(16進in,多項式out)$  
+  $\mathbb{Z}_p[x]のf以下の原始多項式f(16進in,多項式out)$  
 $\mathtt{pol2precprimitivedecinout(p,fdec)}$   
-$\mathbb{Z}_p[x]のf以下の原始多項式f(16進in,16進out)$  
+  $\mathbb{Z}_p[x]のf以下の原始多項式f(16進in,16進out)$  
 $\mathtt{pol2precprimitivedecout(p,f)}$   
-$\mathbb{Z}_p[x]のf以下の原始多項式f(多項式in,16進out)$  
+  $\mathbb{Z}_p[x]のf以下の原始多項式f(多項式in,16進out)$  
 $\mathtt{replace4vec(aavec,rrvec)}$   
   $ベクトル変換, 例: [0,1,2,3] \longrightarrow [0,1,a^{119},a^{238}]$  
 $\mathtt{znlambda2(n)}$   
@@ -72,7 +72,7 @@ $\mathtt{znorder2(b)}$
 $\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
   $n = 2, 4, p^{\alpha}, 2p^{\alpha}のときは\mathtt{znorder2(b)=znorder(b)}$  
 $\mathtt{znprimroot2(n)}$   
-$\mathbb{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
+  $\mathbb{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
   $n = 2, 4, p^{\alpha}, 2p^{\alpha}のとき\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
 $\mathtt{znprimroots2(n)}$  $\mathbb{Z}_n の原始根をすべて列挙する(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応)$  
 
