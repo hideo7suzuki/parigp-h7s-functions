@@ -69,12 +69,12 @@ $\mathtt{znlambda2(n)}$
   Carmichael関数$\lambda(n)=(\mathbb{Z}_nの最大位数)(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$  
   $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のとき$\lambda(n)=\phi(n)$より$\mathtt{znlambda2(n)=eulerphi(n)}$  
 $\mathtt{znorder2(b)}$   
-$\mathtt{b=Mod(a,n)}の位数$(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
-  $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のときは$\mathtt{znorder2(b)=znorder(b)}$  
+$\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
+  $n = 2, 4, p^{\alpha}, 2p^{\alpha}のときは\mathtt{znorder2(b)=znorder(b)}$  
 $\mathtt{znprimroot2(n)}$   
 $\mathbb{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
-  $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のとき$\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
-$\mathtt{znprimroots2(n)}$ $\mathbb{Z}_n の原始根をすべて列挙する(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応)$  
+  $n = 2, 4, p^{\alpha}, 2p^{\alpha}のとき\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
+$\mathtt{znprimroots2(n)}  \mathbb{Z}_n の原始根をすべて列挙する(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応)$  
 
 ----------
 
