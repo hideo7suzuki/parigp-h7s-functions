@@ -15,9 +15,9 @@ $\mathtt{digits2dec(digi,base)}$ 1次元配列ベクトルを1つの10進整数�
 $\mathtt{digits2str(ttvec)}$ 1次元配列ベクトルを1つの文字列型に変換  
 $\mathtt{hexdecchar(aaa)}$ 入力された数を16進文字に変換  
 $\mathtt{irrepolylist(p,m)}$  
-  <mi mathvariant="unicode-math">F</mi>$\mathbf{F}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
+  <mi mathvariant="unicode-math">F</mi>$\bf{F}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
 $\mathtt{pripolylist(p,m)}$   
-:  $\mathbf{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
+:  $\bf{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
 :  ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
 $\mathtt{isprime2(v)}$ 自然数vの素数判定  
 $\mathtt{matrref(A)}$ 行列Aのrrefを計算  
