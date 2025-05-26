@@ -14,7 +14,7 @@ $\mathtt{dec2radix(dec,base)}$ 10進数decを指定されたbase進数に変換
 $\mathtt{digits2dec(digi,base)}$ 1次元配列ベクトルを1つの10進整数に変換  
 $\mathtt{digits2str(ttvec)}$ 1次元配列ベクトルを1つの文字列型に変換  
 $\mathtt{hexdecchar(aaa)}$ 入力された数を16進文字に変換  
-$\mathtt{irrepolylist(p,m)}$
+$\mathtt{irrepolylist(p,m)}$  
 +
   $\mathbb{F}_{p^m}に使えるm次既約多項式fをすべて列挙(16進数表示)$  
 $\mathtt{pripolylist(p,m)}$   
