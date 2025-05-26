@@ -19,7 +19,7 @@ $\mathtt{irrepolylist(p,m)}$
 $\mathtt{pripolylist(p,m)}$   
 :  $\mathbb{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
 :  ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
-\tt{isprime2(v)} 自然数vの素数判定  
+$\mathtt{isprime2(v)}$ 自然数vの素数判定  
 $\mathtt{matrref(A)}$ 行列Aのrrefを計算  
 $\mathtt{nextprime2(v)}$ v以上の最小素数  
 $\mathtt{precprime2(v)}$ v以下の最大の素数  
