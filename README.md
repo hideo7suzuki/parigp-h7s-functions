@@ -1,7 +1,6 @@
 Readme.md of parigp-h7s-functions/h7s-functions.gp
 
-$\displaystyle  \left( \int_0^\infty \frac{\sin x}{\sqrt{x}} dx \right)^2 =   \sum_{k=0}^\infty \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =   \prod_{k=1}^\infty \frac{4k^2}{4k^2 - 1} = \frac{\pi}{2} $
-
+This program is for PARI/GP, not for Gnuplot.
 
 [in English]  
 program lists of my user functions for PARI/GP ver.0.900.  
