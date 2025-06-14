@@ -192,7 +192,7 @@ print("G_",p,"(",m,")=",eulerphi(p^m-1)/m) }
 if(polisirreducible(f)==0,return(0), 
 deg=poldegree(f);if(isprime(p^deg-1),return(1)); 
 d=checkorders(p^deg-1); 
-for(i=2,length(d)-1,ggg=lift(lift(Mod(Mod(x^d[i],p),f))); 
+for(i=2,length(d)-1,ggg=lift(lift(Mod(Mod(x,p),f)^d[i])); 
 if(ggg==1,return(0))); 
 return(1)) }
 \\ irrepolylist(2,6)                                                      
@@ -208,7 +208,7 @@ return(1)) }
 if(isprime(p^m-1), 
 return(polisirreducible(f=Mod(Pol(digits(fdec,p)),p)))); 
 cord=checkorders(p^m-1); 
-for(i=2,length(cord)-1,f=Pol(digits(fdec,p));g=lift(lift(Mod(Mod(x^cord[i],p),f))); 
+for(i=2,length(cord)-1,f=Pol(digits(fdec,p));g=lift(lift(Mod(Mod(x,p),f)^cord[i])); 
 if(g==1,return(0))); 
 return(1) }
 
