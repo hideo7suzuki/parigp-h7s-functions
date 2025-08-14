@@ -39,11 +39,11 @@
 - $\mathtt{matrref(A)}$
   - returns rref of input matrix A.    
 - $\mathtt{nextprime2(v)}$
-  - returns next prime $\geq$ $v$.   
+  - returns the least next prime $\geq$ $v$.   
 - $\mathtt{precprime2(v)}$
-  - returns prec prime $\leq$ $v$.   
+  - returns the maximum prec prime $\leq$ $v$.   
 - $\mathtt{prime2(v)}$
-  - v番目の素数  
+  - the v-th prime     
 - $\mathtt{numofirre(p,m)}$
   - $\mathbb{}{F}_{p^m}に使えるm次既約多項式の個数を表示$  
 - $\mathtt{numofirrepri(p,m)}$
