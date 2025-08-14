@@ -17,13 +17,14 @@
 - $\mathtt{checkorders(order)}$  
   - returns vector to check whether elements are primitive.  
 - $\mathtt{count1(dec)}$  
-  - input is dec, returns counts of 1 in binary expression of dec  
+  - input is dec, returns counts of 1 in binary expression of dec.  
 - $\mathtt{dec2radix(dec,base)}$
   - base is radix and input is dec, returns 0bNN form if dec2radix(dec,2) and returns 0xNN form if dec2radix(dec,16).
 - $\mathtt{digits2dec(digi,base)}$
-  - 1次元配列ベクトルを1つの10進整数に変換  
+  - input digits vector of radix=base, returns a string form of a dec number of the digits.  
 - $\mathtt{digits2str(ttvec)}$
-  - 1次元配列ベクトルを1つの文字列型に変換  
+  - conversions digits vector with all type of number "0,1,2,3,...,9,10,11,12,13,14,15"
+  - to a string form of a hex dec number of the digits "0,1,2,3,...,9,A,B,C,D,E,F".  
 - $\mathtt{hexdecchar(aaa)}$
   - 入力された数を16進文字に変換  
 - $\mathtt{irrepolylist(p,m)}$  
