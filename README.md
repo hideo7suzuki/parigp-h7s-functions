@@ -6,8 +6,10 @@ This program is for PARI/GP, not for Gnuplot.
 program lists of my user functions for PARI/GP ver.0.900.  
 copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
-$\mathtt{checkorders(order)}$ 原始元かどうかをチェックする位数を列挙  
-$\mathtt{count1(dec)}$ 10進数decを2進数に変換したときの1のbit数  
+$\mathtt{checkorders(order)}$ 
+:  return vector to check whether elements are primitive.
+$\mathtt{count1(dec)}$ 
+:  input is dec (=decimal number), return counts of 1 in binary expression of dec.
 $\mathtt{dec2radix(dec,base)}$ 10進数decを指定されたbase進数に変換  
 $\mathtt{digits2dec(digi,base)}$ 1次元配列ベクトルを1つの10進整数に変換  
 $\mathtt{digits2str(ttvec)}$ 1次元配列ベクトルを1つの文字列型に変換  
