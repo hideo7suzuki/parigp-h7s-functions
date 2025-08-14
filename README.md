@@ -4,14 +4,16 @@
 
 #### [in English]  
 
-#### (description)
-
+### (description)
+- $\mathtt{dec}$ is decimal integer  
+- $\mathtt{0xNN}$ is hexa decimal integer  
+- $\mathtt{0bNN}$ is binary integer  
+- $\mathtt{fdec}$ is polynomial formula expression in decimal integer form  
+- $\mathtt{f}$ is polynomial formula expression as formula form  
 
 
 ### program lists of my user functions for PARI/GP ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
-
-
 - $\mathtt{checkorders(order)}$  
   - return vector to check whether elements are primitive.  
 - $\mathtt{count1(dec)}$  
