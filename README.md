@@ -96,12 +96,11 @@
 - $\mathtt{znorder2(b)}$   
   - returns the order of b=Mod(a,n)} for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znorder2(b)=znorder(b)}$ because $\lambda(n) = \phi(n)$.       
-- $\mathtt{znprimroot2(n)}$   
-  - $\mathbb{}{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
-  - $n = 2, 4, p^{\alpha}, 2p^{\alpha}のとき\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
+- $\mathtt{znprimroot2(n)}$
+  - returns the least primitive root of $\mathbb{Z}_n$ for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znprimroot2(n)=znprimroot(n)}$ because $\lambda(n) = \phi(n)$.    
 - $\mathtt{znprimroots2(n)}$
-  - $\mathbb{}{Z}_n$ の原始根をすべて列挙する$(n = 2, 4, p^{\alpha}, 2p^{\alpha}$以外の$n$にも対応)  
-
+  - list up all primitive roots of $\mathbb{Z}_n$ for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
 
 ----------
 
