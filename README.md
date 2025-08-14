@@ -30,9 +30,9 @@
 - $\mathtt{hexdecchar(aaa)}$
   - conversions characters "10,11,12,13,14,15" to "A,B,C,D,E,F".
 - $\mathtt{irrepolylist(p,m)}$  
-   - $\mathbb{}{F}_{p^m}に使えるm次既約多項式$f$をすべて列挙(16進数表示)$  
+  - $\mathbb{F}_{p^m}に使えるm次既約多項式fをすべて列挙(16進数表示)$  
 - $\mathtt{pripolylist(p,m)}$   
-  - $\mathbb{}{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
+  - $\mathbb{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
   - ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
 - $\mathtt{isprime2(v)}$
   - 自然数vの素数判定  
