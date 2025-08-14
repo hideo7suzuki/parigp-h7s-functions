@@ -30,16 +30,16 @@
 - $\mathtt{hexdecchar(aaa)}$
   - conversions characters "10,11,12,13,14,15" to "A,B,C,D,E,F".
 - $\mathtt{irrepolylist(p,m)}$  
-  - $\mathbb{F}_{p^m}に使えるm次既約多項式fをすべて列挙(16進数表示)$  
+  - list up all irreducible polynomials of degree $m$ (mod p). polynomial expression is 0xNN form.  
 - $\mathtt{pripolylist(p,m)}$   
-  - $\mathbb{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
-  - ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
+  - list up all primitive polynomials of degree $m$ (mod p). polynomial expression is 0xNN form.   
+  - omit list up if (all irreducible polynomials)＝(all primitive polynomials).   
 - $\mathtt{isprime2(v)}$
-  - 自然数vの素数判定  
+  - primality test of natural integer v.  
 - $\mathtt{matrref(A)}$
-  - 行列Aのrrefを計算  
+  - returns rref of input matrix A.    
 - $\mathtt{nextprime2(v)}$
-  - v以上の最小素数  
+  - next  
 - $\mathtt{precprime2(v)}$
   - v以下の最大の素数  
 - $\mathtt{prime2(v)}$
