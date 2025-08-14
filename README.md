@@ -9,7 +9,11 @@
 - $\mathtt{0xNN}$ is hexa decimal integer  
 - $\mathtt{0bNN}$ is binary integer  
 - $\mathtt{fdec}$ is polynomial formula expression in decimal integer form  
-- $\mathtt{f}$ is polynomial formula expression as formula form  
+- $\mathtt{f}$ is polynomial formula expression as formula form
+- $\mathtt{f} $\longrightarrow \mathtt{fdec}$ conversion:
+  - digits2dec(Vec(f),p)
+- $\mathtt{fdec} $\longrightarrow \mathtt{f}$ conversion:
+  - Pol(digits(fdec,p))  
 
 
 ### program lists of my user functions for PARI/GP ver.0.900.  
