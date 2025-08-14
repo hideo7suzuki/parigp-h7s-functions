@@ -24,11 +24,13 @@
   - input digits vector of radix=base, returns a string form of a dec number of the digits.  
 - $\mathtt{digits2str(ttvec)}$
   - conversions digits vector with all type of number "0,1,2,3,...,9,10,11,12,13,14,15"
-  - to a string form of a hex dec number of the digits "0,1,2,3,...,9,A,B,C,D,E,F".  
+  - to a string form of a hex dec number of the digits "0,1,2,3,...,9,A,B,C,D,E,F".
+  - dec2radix(dec,16) is using digits2str(ttvec).  
 - $\mathtt{hexdecchar(aaa)}$
-  - 入力された数を16進文字に変換  
+  - conversions characters "10,11,12,13,14,15" to "A,B,C,D,E,F".
+  - digits2str(ttvec) is using hexdecchar(aaa).  
 - $\mathtt{irrepolylist(p,m)}$  
-   - <mi mathvariant="unicode-math">F</mi>$\mathbb{F}$${}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
+   - $\mathbb{F}$${}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
 - $\mathtt{pripolylist(p,m)}$   
   - $\mathbb{}{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
   - ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
