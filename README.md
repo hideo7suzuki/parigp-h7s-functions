@@ -39,9 +39,9 @@
 - $\mathtt{matrref(A)}$
   - returns rref of input matrix A.    
 - $\mathtt{nextprime2(v)}$
-  - returns next prime $geq$ $v$.   
+  - returns next prime $\geq$ $v$.   
 - $\mathtt{precprime2(v)}$
-  - returns prec prime $leq$ $v$.   
+  - returns prec prime $\leq$ $v$.   
 - $\mathtt{prime2(v)}$
   - v番目の素数  
 - $\mathtt{numofirre(p,m)}$
