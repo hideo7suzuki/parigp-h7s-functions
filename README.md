@@ -37,7 +37,7 @@
   - list up all primitive polynomials of degree $m$ (mod p). polynomial expression is 0xNN form.   
   - omit list up if (all irreducible polynomials)＝(all primitive polynomials).   
 - $\mathtt{isprime2(v)}$
-  - primality test of natural integer v.  
+  - primality test of natural integer $v$.  
 - $\mathtt{matrref(A)}$
   - returns rref of input matrix A.    
 - $\mathtt{nextprime2(v)}$
@@ -45,7 +45,7 @@
 - $\mathtt{precprime2(v)}$
   - returns the maximum prec prime $\leq$ $v$.   
 - $\mathtt{prime2(v)}$
-  - the v-th prime     
+  - the $v$-th prime     
 - $\mathtt{numofirre(p,m)}$
   - number of irreducible polynomials of degree $m$ (mod p).   
 - $\mathtt{numofirrepri(p,m)}$
@@ -91,16 +91,16 @@
 - $\mathtt{replace4vec(aavec,rrvec)}$   
   - vector conversion, e.g.: [0,1,2,3] $\longrightarrow [0,1,a^{119},a^{238}]$  
 - $\mathtt{znlambda2(n)}$   
-  - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$) for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.    
+  - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$) for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.    
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znlambda2(n)=eulerphi(n)}$ because $\lambda(n) = \phi(n)$.      
 - $\mathtt{znorder2(b)}$   
-  - returns the order of b=Mod(a,n)} for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - returns the order of b=Mod(a,n)} for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znorder2(b)=znorder(b)}$ because $\lambda(n) = \phi(n)$.       
 - $\mathtt{znprimroot2(n)}$
-  - returns the least primitive root of $\mathbb{Z}_n$ for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - returns the least primitive root of $\mathbb{Z}_n$ for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znprimroot2(n)=znprimroot(n)}$ because $\lambda(n) = \phi(n)$.    
 - $\mathtt{znprimroots2(n)}$
-  - list up all primitive roots of $\mathbb{Z}_n$ for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - list up all primitive roots of $\mathbb{Z}_n$ for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
 
 ----------
 
