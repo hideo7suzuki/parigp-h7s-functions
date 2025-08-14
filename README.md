@@ -45,51 +45,51 @@
 - $\mathtt{prime2(v)}$
   - the v-th prime     
 - $\mathtt{numofirre(p,m)}$
-  - $\mathbb{}{F}_{p^m}に使えるm次既約多項式の個数を表示$  
+  - number of irreducible polynomials of degree $m$ (mod p).   
 - $\mathtt{numofirrepri(p,m)}$
-  - $\mathbb{}{F}_{p^m}に使えるm次既約多項式と原始多項式の個数を表示$  
+  - numbers of irreducible polynomials and primitive polynomials of degree $m$ (mod p).   
 - $\mathtt{numofpri(p,m)}$
-  - $\mathbb{}{F}_{p^m}に使えるm次原始多項式の個数を表示$  
+  - number of primitive polynomials of degree $m$ (mod p).    
 - $\mathtt{pol2isprimitive(p,f)}$   
-  - $多項式f(多項式in)が\mathbb{}{Z}_p[x]の原始多項式であるかの判定$  
+  - primitivity test for input polynomial f of (mod p).  
 - $\mathtt{pol2isprimitivedec(p,m,fdec)}$   
-  - $多項式f(16進in)が\mathbb{}{Z}_p[x]の原始多項式であるかの判定$  
+  - primitivity test for input polynomial fdec of (mod p).  
 - $\mathtt{pol2next2primitivedecin(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ上の原始多項式f(16進in,多項式out)$  
+  - returns the 2nd next of primitive polynomial $\geq$ fdec.  the formats are fdec in and polynomial out.  
 - $\mathtt{pol2next2primitivedecinout(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ上の原始多項式f(16進in,16進out)$  
+  - returns the 2nd next of primitive polynomial $\geq$ fdec.  the formats are fdec in and fdec out.  
 - $\mathtt{pol2next2primitivedecout(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ上の原始多項式f(多項式in,16進out)$  
+  - returns the 2nd next of primitive polynomial $\geq$ fdec.  the formats are polynomial in and fdec out.   
 - $\mathtt{pol2next2primitive(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ上の原始多項式f(多項式in,out)$  
+  - returns the 2nd next of primitive polynomial $\geq$ fdec.  the formats are polynomial in and polynomial out.   
 - $\mathtt{pol2nextprimitive(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のf以上の原始多項式f(多項式in,out)$  
+  - returns the next primitive polynomial $\geq$ fdec.  the formats are polynomial in and polynomial out.    
 - $\mathtt{pol2nextprimitivedecin(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のf以上の原始多項式f(16進in,多項式out)$  
+  - returns the next primitive polynomial $\geq$ fdec.  the formats are fdec in and polynomial out.    
 - $\mathtt{pol2nextprimitivedecinout(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のf以上の原始多項式f(16進in,16進out)$  
+  - returns the next primitive polynomial $\geq$ fdec.  the formats are fdec in and fdec out.    
 - $\mathtt{pol2nextprimitivedecout(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のf以上の原始多項式f(多項式in,16進out)$  
+  - returns the next primitive polynomial $\geq$ fdec.  the formats are polynomial in and fdec out.    
 - $\mathtt{pol2prec2primitive(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ下の原始多項式f(多項式in,out)$  
+  - returns the 2nd prec primitive polynomial $\leq$ fdec.  the formats are polynomial in and polynomial out.    
 - $\mathtt{pol2prec2primitivedecin(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ下の原始多項式f(16進in,多項式out)$  
+  - returns the 2nd prec primitive polynomial $\leq$ fdec.  the formats are fdec in and polynomial out.    
 - $\mathtt{pol2prec2primitivedecinout(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ下の原始多項式f(16進in,16進out)$  
+  - returns the 2nd prec primitive polynomial $\leq$ fdec.  the formats are fdec in and fdec out.    
 - $\mathtt{pol2prec2primitivedecout(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のfより1つ下の原始多項式f(多項式in,16進out)$  
+  - returns the 2nd prec primitive polynomial $\leq$ fdec.  the formats are polynomial in and fdec out.    
 - $\mathtt{pol2precprimitive(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のf以下の原始多項式f(多項式in,out)$  
+  - returns the prec primitive polynomial $\leq$ fdec.  the formats are polynomial in and polynomial out.    
 - $\mathtt{pol2precprimitivedecin(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のf以下の原始多項式f(16進in,多項式out)$  
+  - returns the prec primitive polynomial $\leq$ fdec.  the formats are fdec in and polynomial out.    
 - $\mathtt{pol2precprimitivedecinout(p,fdec)}$   
-  - $\mathbb{}{Z}_p[x]のf以下の原始多項式f(16進in,16進out)$  
+  - returns the prec primitive polynomial $\leq$ fdec.  the formats are fdec in and fdec out.    
 - $\mathtt{pol2precprimitivedecout(p,f)}$   
-  - $\mathbb{}{Z}_p[x]のf以下の原始多項式f(多項式in,16進out)$  
+  - returns the prec primitive polynomial $\leq$ fdec.  the formats are polynomial in and fdec out.    
 - $\mathtt{replace4vec(aavec,rrvec)}$   
-  - $ベクトル変換, 例: [0,1,2,3] \longrightarrow [0,1,a^{119},a^{238}]$  
+  - vecter conversion, e.g.: [0,1,2,3] $\longrightarrow [0,1,a^{119},a^{238}]$  
 - $\mathtt{znlambda2(n)}$   
-  - Carmichael関数$\lambda(n)=(\mathbb{}{Z}_nの最大位数)(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$  
+  - Carmichael fuction$\lambda(n)=(the maximum order of \mathbb{}{Z}_n)(for n is any integer, not limited to 2, 4, p^{\alpha}, 2p^{\alpha} forms),$  
   - $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のとき$\lambda(n)=\phi(n)$より$\mathtt{znlambda2(n)=eulerphi(n)}$  
 - $\mathtt{znorder2(b)}$   
   - $\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
