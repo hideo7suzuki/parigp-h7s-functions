@@ -10,9 +10,9 @@
 - $\mathtt{0bNN}$ is binary integer  
 - $\mathtt{fdec}$ is polynomial formula expression in decimal integer form  
 - $\mathtt{f}$ is polynomial formula expression as formula form
-- $\mathtt{f} $\longrightarrow \mathtt{fdec}$ conversion:
+- $\mathtt{f} \longrightarrow \mathtt{fdec}$ conversion:
   - digits2dec(Vec(f),p)
-- $\mathtt{fdec} $\longrightarrow \mathtt{f}$ conversion:
+- $\mathtt{fdec} \longrightarrow \mathtt{f}$ conversion:
   - Pol(digits(fdec,p))  
 
 
