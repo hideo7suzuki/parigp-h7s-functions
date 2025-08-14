@@ -20,15 +20,15 @@
   - input is dec, returns counts of 1 in binary expression of dec.  
 - $\mathtt{dec2radix(dec,base)}$
   - base is radix and input is dec, returns 0bNN form if dec2radix(dec,2) and returns 0xNN form if dec2radix(dec,16).
+  - dec2radix(dec,16) is using digits2str(ttvec).  
 - $\mathtt{digits2dec(digi,base)}$
   - input digits vector of radix=base, returns a string form of a dec number of the digits.  
 - $\mathtt{digits2str(ttvec)}$
   - conversions digits vector with all type of number "0,1,2,3,...,9,10,11,12,13,14,15"
   - to a string form of a hex dec number of the digits "0,1,2,3,...,9,A,B,C,D,E,F".
-  - dec2radix(dec,16) is using digits2str(ttvec).  
+  - digits2str(ttvec) is using hexdecchar(aaa).  
 - $\mathtt{hexdecchar(aaa)}$
   - conversions characters "10,11,12,13,14,15" to "A,B,C,D,E,F".
-  - digits2str(ttvec) is using hexdecchar(aaa).  
 - $\mathtt{irrepolylist(p,m)}$  
    - $\mathbb{F}$${}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
 - $\mathtt{pripolylist(p,m)}$   
