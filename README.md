@@ -89,11 +89,11 @@
 - $\mathtt{replace4vec(aavec,rrvec)}$   
   - vector conversion, e.g.: [0,1,2,3] $\longrightarrow [0,1,a^{119},a^{238}]$  
 - $\mathtt{znlambda2(n)}$   
-  - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$)(for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms).    
-  - in case of $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znlambda2(n)=eulerphi(n)}$ because $\lambda(n) = \phi(n)$ より     
+  - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$) for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.    
+  - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znlambda2(n)=eulerphi(n)}$ because $\lambda(n) = \phi(n)$.      
 - $\mathtt{znorder2(b)}$   
-  - $\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
-  - $n = 2, 4, p^{\alpha}, 2p^{\alpha}のときは\mathtt{znorder2(b)=znorder(b)}$  
+  - returns the order of b=Mod(a,n)} for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znorder2(b)=znorder(b)}$ because $\lambda(n) = \phi(n)$.       
 - $\mathtt{znprimroot2(n)}$   
   - $\mathbb{}{Z}_n の最小の原始根(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
   - $n = 2, 4, p^{\alpha}, 2p^{\alpha}のとき\lambda(n)=\phi(n)$より$\mathtt{znprimroot2(n)=znprimroot(n)}$  
