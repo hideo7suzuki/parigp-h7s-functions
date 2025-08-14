@@ -1,10 +1,15 @@
-Readme.md of parigp-h7s-functions/h7s-functions.gp
+# Readme.md of parigp-h7s-functions/h7s-functions.gp
 
-This program is for PARI/GP, not for Gnuplot.
+# This program is for PARI/GP, not for Gnuplot.
 
 [in English]  
-program lists of my user functions for PARI/GP ver.0.900.  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+
+## (description)
+
+
+
+# program lists of my user functions for PARI/GP ver.0.900.  
+# copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 
 
 - $\mathtt{checkorders(order)}$  
