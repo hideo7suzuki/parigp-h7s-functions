@@ -90,7 +90,7 @@
   - vecter conversion, e.g.: [0,1,2,3] $\longrightarrow [0,1,a^{119},a^{238}]$  
 - $\mathtt{znlambda2(n)}$   
   - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$)(for any integer n, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms).    
-  - $n = 2, 4, p^{\alpha}, 2p^{\alpha}$のとき$\lambda(n)=\phi(n)$より$\mathtt{znlambda2(n)=eulerphi(n)}$  
+  - in case of $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, $\lambda(n) = \phi(n)$ より $\mathtt{znlambda2(n)=eulerphi(n)}$    
 - $\mathtt{znorder2(b)}$   
   - $\mathtt{b=Mod(a,n)}の位数(n = 2, 4, p^{\alpha}, 2p^{\alpha}以外のnにも対応),$   
   - $n = 2, 4, p^{\alpha}, 2p^{\alpha}のときは\mathtt{znorder2(b)=znorder(b)}$  
