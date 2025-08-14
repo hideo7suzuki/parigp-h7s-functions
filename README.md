@@ -15,11 +15,11 @@
 ### program lists of my user functions for PARI/GP ver.0.900.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 - $\mathtt{checkorders(order)}$  
-  - return vector to check whether elements are primitive.  
+  - returns vector to check whether elements are primitive.  
 - $\mathtt{count1(dec)}$  
-  - input is dec (=decimal number), return counts of 1 in binary expression of dec  
+  - input is dec, returns counts of 1 in binary expression of dec  
 - $\mathtt{dec2radix(dec,base)}$
-  - 10進数decを指定されたbase進数に変換  
+  - base is radix and input is dec, returns 0bNN form if dec2radix(dec,2) and returns 0xNN form if dec2radix(dec,16).
 - $\mathtt{digits2dec(digi,base)}$
   - 1次元配列ベクトルを1つの10進整数に変換  
 - $\mathtt{digits2str(ttvec)}$
