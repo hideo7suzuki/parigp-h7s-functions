@@ -4,7 +4,7 @@
 
 #### [in English]  
 
-### (Notation）
+### Notations
 - $\mathtt{dec}$ is decimal integer  
 - $\mathtt{0xNN}$ is hexa decimal integer  
 - $\mathtt{0bNN}$ is binary integer  
@@ -17,7 +17,7 @@
 - $\mathtt{checkorders(order)}$  
   - returns vector to check whether elements are primitive.  
 - $\mathtt{count1(dec)}$  
-  - input is dec, returns counts of 1 in binary expression of dec.  
+  - returns counts of 1 in binary expression of input dec.  
 - $\mathtt{dec2radix(dec,base)}$
   - base is radix and input is dec, returns 0bNN form if dec2radix(dec,2) and returns 0xNN form if dec2radix(dec,16).
   - dec2radix(dec,16) is using digits2str(ttvec).  
@@ -103,17 +103,15 @@
 
 ----------
 
-[in Japanese]  
-AES暗号 (128 bit key) ユーザ定義関数プログラムリスト  
-copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
+#### [in Japanese]  
 
-$\mathtt{checkorders(order)}$ 原始元かどうかをチェックする位数を列挙  
-$\mathtt{count1(dec)}$ 10進数decを2進数に変換したときの1のbit数  
+### ユーザ定義関数プログラムリスト for PARI/GP ver.0.900.  
+### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025. 
 
 - $\mathtt{checkorders(order)}$  
-  - return vector to check whether elements are primitive.  
+  - 原始元かどうかをチェックする位数を列挙  
 - $\mathtt{count1(dec)}$  
-  - input is dec (=decimal number), return counts of 1 in binary expression of dec  
+  - 10進数decを2進数に変換したときの1のbit数   
 - $\mathtt{dec2radix(dec,base)}$
   - 10進数decを指定されたbase進数に変換  
 - $\mathtt{digits2dec(digi,base)}$
