@@ -10,8 +10,8 @@
 - $\mathtt{0bNN}$ is binary integer  
 - $\mathtt{fdec}$ is polynomial expression in decimal integer form  
 - $\mathtt{f}$ is polynomial expression as formula form
-- $\mathtt{f} \longrightarrow \mathtt{fdec}$ conversion: digits2dec(Vec(f),p)  
-- $\mathtt{fdec} \longrightarrow \mathtt{f}$ conversion: Pol(digits(fdec,p))  
+- $\mathtt{f} \in \mathbb{F}_p \longrightarrow \mathtt{fdec}$ conversion: digits2dec(Vec(f),p)  
+- $\mathtt{fdec} \longrightarrow \mathtt{f} \in \mathbb{F}_p$ conversion: Pol(digits(fdec,p))  
 
 
 ### program lists of my user functions for PARI/GP ver.0.900.  
