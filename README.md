@@ -13,7 +13,7 @@
 - $\mathtt{f} \in \mathbb{F}_p \longrightarrow \mathtt{fdec}$ conversion: fdec = digits2dec(Vec(lift(f)),p)  
 - $\mathtt{fdec} \longrightarrow \mathtt{f} \in \mathbb{F}_p$ conversion: f = Mod(Pol(digits(fdec,p)),p)
 - to check primitivity of fdec,  e.g., fdec=0x43;p=2;m=6;pol2isprimitivedec(p,m,fdec)
-- to check primitivity of f,  e.g., f=Mod(1,2)*x^6+Mod(1,2)*x+Mod(1,2);p=2;m=6;pol2isprimitive(p,f)
+- to check primitivity of f,  e.g., f=Mod(1,2)*x^6+Mod(1,2)*x+Mod(1,2);p=2;pol2isprimitive(p,f)
 - to check primitivity of f,  e.g., f=x^6+x+1;p=2;m=6;pol2isprimitive(p,f)
 
 ### program lists of my user functions for PARI/GP ver.0.900.  
