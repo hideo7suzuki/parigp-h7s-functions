@@ -97,7 +97,7 @@
   - Carmichael fuction $\lambda(n)$ =(the maximum order of $\mathbb{Z}_n$) for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.    
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znlambda2(n)=eulerphi(n)}$ because $\lambda(n) = \phi(n)$.      
 - $\mathtt{znorder2(b)}$   
-  - returns the order of b=Mod(a,n)} for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
+  - returns the order of b=Mod(a,n) for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
   - if $n = 2, 4, p^{\alpha}, 2p^{\alpha}$, then $\mathtt{znorder2(b)=znorder(b)}$ because $\lambda(n) = \phi(n)$.       
 - $\mathtt{znprimroot2(n)}$
   - returns the least primitive root of $\mathbb{Z}_n$ for any integer $n$, not limited to $2, 4, p^{\alpha}, 2p^{\alpha}$ forms.
