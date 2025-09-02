@@ -17,7 +17,7 @@
 - to check primitivity of f,  e.g., f=Mod(1,2)*x^6+Mod(1,2)*x+Mod(1,2);p=2;pol2isprimitive(p,f)
 - to check primitivity of f,  e.g., f=x^6+x+1;p=2;pol2isprimitive(p,f)
 
-### ver.0.900 program lists of my user functions for PARI/GP.  
+### program lists of my user functions ver.0.900 for PARI/GP.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025.  
 - $\mathtt{checkorders(order)}$  
   - returns vector to check whether elements are primitive.  
@@ -109,7 +109,7 @@
 
 #### [in Japanese]  
 
-### ver.0.900 ユーザ定義関数プログラムリスト for PARI/GP.  
+### ユーザ定義関数プログラムリスト ver.0.900 for PARI/GP.  
 ### copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025. 
 
 - $\mathtt{checkorders(order)}$  
