@@ -1,6 +1,6 @@
 \\ file name: h7s-functions.gp
 
-\\ my user functions for PARI/GP ver.0.900.  
+\\ my user functions ver.0.900 for PARI/GP.  
 \\ copyright by Hideo Suzuki, hideo7suzuki@gmail.com  Jan. 2025. 
 
 { checkorders(order) =  
