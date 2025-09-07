@@ -125,7 +125,7 @@
 - $\mathtt{hexdecchar(aaa)}$
   - 入力された数を16進文字に変換  
 - $\mathtt{irrepolylist(p,m)}$  
-   - <mi mathvariant="unicode-math">F</mi>$\mathbb{F}$${}_{p^m}$に使える$m$次既約多項式$f$をすべて列挙(16進数表示)  
+   - $\mathbb{}{F}_{p^m}に使えるm次既約多項式fをすべて列挙(16進数表示)$  
 - $\mathtt{pripolylist(p,m)}$   
   - $\mathbb{}{F}_{p^m}に使えるm次原始多項式fをすべて列挙(16進数表示)$  
   - ただし、(すべての既約多項式)＝(原始多項式)になる場合は、そのことを表示  
